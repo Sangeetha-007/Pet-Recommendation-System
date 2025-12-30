@@ -5,10 +5,8 @@
 Developed an end-to-end recommendation pipeline using scraped pet profile data. The system transforms unstructured textual descriptions into structured embeddings and applies cosine similarity to identify similar pets. Visualization with PCA and t-SNE validates the embedding space and supports recommendation quality analysis.
 
 ## Technologies Used
-* Python
-         <li> Additional libraries: pandas, NumPy, Selenium, Matplotlib, seaborn
-* scikit-learn
-         - Used for model evaluation and train/test splitting
+* Python: pandas, NumPy, Selenium, Matplotlib, seaborn
+* scikit-learn: Used for model evaluation and train/test splitting
 
 <!--Data Used
 This project uses data collected from the FastF1 API, which provides access to telemetry, timing, and weather information. The dataset includes sessions from 5 Formula 1 seasons (2019-2024). The exact code used to create this dataset can be found in the src/qualifying-data.ipynb notebook. The final dataset can be found in data/data.csv
