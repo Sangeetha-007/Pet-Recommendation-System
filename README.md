@@ -10,28 +10,10 @@ Developed an end-to-end recommendation pipeline using scraped pet profile data. 
 
 ## Data Used
 This project uses data scraped from Sean Casey Animal Rescue. The final dataset can be found in pets.csv
+
+## Training the Model
+The model used in this model to predict was done with Cosine Similarity, visualized with PCA and t-SNE. 
 <!--
-The model uses data from qualifying sessions as input features and actual race results as the target variable. Each data point in the dataset corresponds to a driver for a specific qualifying session and includes the following information:
-
-Weather Information
-Average air and track temperatures
-Humidity, wind speed, pressure, and rainfall
-Telemetry Information
-Speed, Throttle, RPM
-Number of DRS activations and gear changes
-Performance Information
-Average lap times and sector times
-Session Information
-Driver number and team name
-Season
-Final qualifying position (corresponds to where the driver will start the race)
-As mentioned above, the target variable for the model is the final race position, which allows the model to learn how qualifying, telemetry, and weather data impacts race outcomes.
-
-Note: To avoid rate limits with the FastF1 API, data is collected year-by-year. Team name standardization is applied to account for team name rebranding (ex. Alpha Tauri to Racing Bulls).
-
-Training the Model
-The model used in this project is an XGBoost Ranker (XGBRanker) trained to predict the final race order based on qualifying, telemetry, and weather data. Since race outcomes are ordinal, a learning-to-rank approach was chosen to capture the relative position of drivers for each race.
-
 The code used to train the model can be found in the src/model.ipynb notebook. These were the main steps involved in training the model:
 
 Train-Test Split
