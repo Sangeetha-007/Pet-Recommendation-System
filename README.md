@@ -6,7 +6,7 @@ Developed an end-to-end recommendation pipeline using scraped pet profile data. 
 
 ## Technologies Used
 * Python
-         - Additional libraries: pandas, NumPy, Selenium, Matplotlib, seaborn
+         <li> Additional libraries: pandas, NumPy, Selenium, Matplotlib, seaborn
 * scikit-learn
          - Used for model evaluation and train/test splitting
 
