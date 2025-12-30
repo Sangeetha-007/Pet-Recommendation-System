@@ -12,7 +12,7 @@ Developed an end-to-end recommendation pipeline using scraped pet profile data. 
 This project uses data scraped from Sean Casey Animal Rescue. The final dataset can be found in pets.csv
 
 ## Training the Model
-The model used in this model to predict was done with Cosine Similarity, visualized with PCA and t-SNE. 
+The model used to predict was done with Cosine Similarity, visualized with PCA and t-SNE. 
 <!--
 The code used to train the model can be found in the src/model.ipynb notebook. These were the main steps involved in training the model:
 
