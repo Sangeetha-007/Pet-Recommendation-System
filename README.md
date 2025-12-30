@@ -8,9 +8,9 @@ Developed an end-to-end recommendation pipeline using scraped pet profile data. 
 * Python: pandas, NumPy, Selenium, Matplotlib, seaborn
 * scikit-learn: Used for model evaluation and train/test splitting
 
-<!--Data Used
-This project uses data collected from the FastF1 API, which provides access to telemetry, timing, and weather information. The dataset includes sessions from 5 Formula 1 seasons (2019-2024). The exact code used to create this dataset can be found in the src/qualifying-data.ipynb notebook. The final dataset can be found in data/data.csv
-
+## Data Used
+This project uses data scraped from Sean Casey Animal Rescue. The final dataset can be found in pets.csv
+<!--
 The model uses data from qualifying sessions as input features and actual race results as the target variable. Each data point in the dataset corresponds to a driver for a specific qualifying session and includes the following information:
 
 Weather Information
