@@ -9,7 +9,7 @@ Developed an end-to-end recommendation pipeline using scraped pet profile data. 
 * scikit-learn: Used for model evaluation and train/test splitting
 
 ## Data Used
-This project uses data scraped from [Sean Casey Animal Rescue] (https://www.nyanimalrescue.org/). The final dataset can be found in pets.csv
+This project uses data scraped from [Sean Casey Animal Rescue](https://www.nyanimalrescue.org/). The final dataset can be found in pets.csv
 
 ## Training the Model
 The model used to predict was done with Cosine Similarity, visualized with PCA and t-SNE. 
