@@ -71,7 +71,8 @@ Make predictions on the 2025 season using this notebook! -->
 
 ## Limitations & Future Improvements
 The Sean Casey Animal Rescue site only had 17 cat profiles during the time of the scrape. The PCA and t-SNE visualizations would provide better insights if there were more profiles to scrape. 
-Other animal shelter sites prevented scraping their data due to security reasons. 
+Other animal shelter sites prevented scraping their data due to security reasons. There would be better visualizations if there were more data/attributes. 
+
 <!--While the model demonstrates stong performance on 2019-2024 data, there are several limitations and opportunities for future improvement.
 
 Formula 1 Uncertainty: There is so much data that Formula 1 race engineers utilize to make predictions and inform racing strategy. Though this model uses a variety of data across qualifying, telemetry, and weather factors, there are racing circumstances that cannot be captured including crashes, driver errors, safety cars, unexpected weather changes, etc.
